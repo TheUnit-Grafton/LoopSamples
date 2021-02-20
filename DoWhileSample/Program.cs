@@ -1,18 +1,18 @@
 ﻿using System;
 
-namespace WhileLoop
+namespace DoWhileSample
 {
     class Program
     {
         /// <summary>
-        /// Sample code illustrating the use of a WHILE loop
+        /// Sample code to illustrate use of a Do/While loop.
         /// </summary>
         /// <param name="args"></param>
         static void Main(string[] args)
         {
             int i = 10;
 
-            while (i < 15)
+            do
             {
                 Console.WriteLine("The value of i is " + i);
                 if (i == 13)
@@ -22,6 +22,7 @@ namespace WhileLoop
                 }
                 i++;
             }
+            while (i < 15);
         }
     }
 }
